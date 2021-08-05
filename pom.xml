@@ -1,41 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-  
+<project xmlns = "http://maven.apache.org/POM/4.0.0"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation = "http://maven.apache.org/POM/4.0.0
+   http://maven.apache.org/xsd/maven-4.0.0.xsd">
    <modelVersion>4.0.0</modelVersion>
-    <groupId>Test_Project</groupId>
-    <artifactId>Website_Project</artifactId>
-    <packaging>war</packaging>
-    <version>2.0</version>
-    <name>Webapp_Project</name>
-  
-  </dependencies>
-  <!-- TESTING -->
-		<dependency>
-			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
-			<version>4.7</version>
-			<scope>test</scope>
-		</dependency>
-  <dependencies>
-  </build>
-  <finalName>DevopsProject</finalName>
-  </build>
-  
-    <!-- PMD -->
-  <plugin>
-     <groupId>org.apache.maven.plugins</groupId>
-     <artifactId>maven-pmd-plugin</artifactId>
-     <version>3.2</version>
-    <configuration>
-        <targetJdk>1.8</targetJdk>
-        <aggregate>true</aggregate>
-        format>xml</format>
-        <!-- CPD options -->
-        <minimumTokens>20</minimumTokens>
-        <!--<ignoreIdentifiers>true</ignoreIdentifiers>-->
-        <failOnViolation>true</failOnViolation>
-         <failurePriority>2</failurePriority>
-     </configuration>
-  </plugin>
+   <groupId>TestProject</groupId>
+   <artifactId>projectWeb</artifactId>
+   <version>2.0</version>
+	<name>ProjectWeb Maven Webapp</name>
+	<url>http://maven.apache.org</url>
+   <dependencies>
+      <dependency>
+         <groupId>junit</groupId>
+         <artifactId>junit</artifactId>
+         <version>3.8.1</version>
+      </dependency>
+   </dependencies>  
+	<build>
+		<finalName>DevopsProject</finalName>
+	</build>
 </project>
